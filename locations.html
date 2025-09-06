@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" data-page="locations">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pause Café — Silent Mental Reset Booths</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2285%22>🧘</text></svg>">
+
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="logo" href="index.html">
+      <span class="logo-icon">🧘</span>
+      <span class="logo-text">Pause Café</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="material-symbols-rounded">menu</span>
+    </button>
+    <nav class="nav-links" role="navigation">
+      <a href="index.html" data-link="home">Home</a>
+      <a href="book.html" data-link="book">Book</a>
+      <a href="plans.html" data-link="plans">Plans</a>
+      <a href="locations.html" data-link="locations">Locations</a>
+      <a href="corporate.html" data-link="corporate">Corporate</a>
+      <a href="contact.html" data-link="contact" class="cta">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h1 class="section-title">Locations</h1>
+      <p class="muted center">Find a Pause Café booth near you.</p>
+
+      <div class="map card">
+        <!-- Placeholder map (embed any map provider later) -->
+        <iframe title="Map" src="https://maps.google.com/maps?q=India&t=&z=4&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
+      </div>
+
+      <div class="grid cards-3">
+        <article class="card">
+          <h3>Mumbai — BKC Corporate Hub</h3>
+          <p class="muted">Weekdays 8am–10pm • Weekends 10am–10pm</p>
+          <a class="btn small" href="book.html">Book here</a>
+        </article>
+        <article class="card">
+          <h3>Pune — Phoenix Mall</h3>
+          <p class="muted">Daily 10am–9:30pm</p>
+          <a class="btn small" href="book.html">Book here</a>
+        </article>
+        <article class="card">
+          <h3>Bengaluru — BLR Airport T1</h3>
+          <p class="muted">24×7</p>
+          <a class="btn small" href="book.html">Book here</a>
+        </article>
+        <article class="card">
+          <h3>Delhi — Connaught Place</h3>
+          <p class="muted">Daily 9am–10pm</p>
+          <a class="btn small" href="book.html">Book here</a>
+        </article>
+        <article class="card">
+          <h3>Hyderabad — Hitec City</h3>
+          <p class="muted">Weekdays 8am–10pm</p>
+          <a class="btn small" href="book.html">Book here</a>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="brand">
+        <span class="logo-icon">🧘</span>
+        <span>Pause Café</span>
+      </div>
+      <p class="muted">Silent mental reset booths for modern spaces.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="book.html">Book a Booth</a></li>
+        <li><a href="plans.html">Membership Plans</a></li>
+        <li><a href="locations.html">Find Locations</a></li>
+        <li><a href="corporate.html">Corporate Wellness</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:hello@pausecafe.app">hello@pausecafe.app</a></li>
+        <li><a href="tel:+919999999999">+91 99999 99999</a></li>
+        <li class="muted">Nashik, India</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <small>© <span id="year"></span> Pause Café. All rights reserved.</small>
+  </div>
+</footer>
+
+<div id="toaster" class="toaster" role="status" aria-live="polite"></div>
+<script src="js/script.js"></script>
+</body>
+</html>
